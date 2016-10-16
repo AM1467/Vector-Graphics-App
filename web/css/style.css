@@ -699,6 +699,14 @@ body {
     
 }
 
+#homepage-buttons {
+    
+    height: 600px;
+    width: auto;    
+    background-color: #fff2e6;    
+    
+}
+
 
 
 #intro {
@@ -747,7 +755,10 @@ body {
 	margin-left: 150px;
 	line-height: 32px;
 	background-image: url('../images/map.png');	
+        
+       
 }
+
 
 
 

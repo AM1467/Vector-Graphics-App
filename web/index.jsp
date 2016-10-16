@@ -23,12 +23,12 @@
             
            
             
-            <div id="intro"> Hello! Welcome to VG Draw, an application that will help you create your own basic vector shapes.
+            <div id="intro" align = "center"> Hello! Welcome to VG Draw, an application that will help you create your own basic vector shapes.
             </div>
     
-            <br><br><br><br><br><br>
+            <br><br><br>
             
-            <div id="content" >
+            <div id="homepage-buttons" >
             
             <ul class="cbp-rfgrid"  >
                 
@@ -37,18 +37,18 @@
                         <svg>
                             <g>
                                 <circle cx="75" cy="75" r="75" fill="#98e698" />
-                                <text x="35" y="85" font-family="Rockwell, serif" font-size="30" fill="black" > Draw </text>
+                                <text x="35" y="85" font-family="Helvetica, sans serif" font-size="30" fill="black" > Draw </text>
                             </g>
                         </svg>
                     </a>
                 </li>
                 
     		<li>
-                    <a href="#">
+                    <a href="https://github.com/AM1467/Vector-Graphics-App">
                         <svg>
                             <g>
                                 <circle cx="75" cy="75" r="75" fill="#98e698" />
-                                <text x="28" y="85" font-family="Rockwell, serif" font-size="30" fill="black" > Source </text>
+                                <text x="28" y="85" font-family="Helvetica, sans serif" font-size="30" fill="black" > Source </text>
                             </g>
                         </svg>
                     </a>
@@ -59,7 +59,7 @@
                         <svg>
                             <g>
                                 <circle cx="75" cy="75" r="75" fill="#98e698" />
-                                <text x="30" y="85" font-family="Rockwell, serif" font-size="30" fill="black" > About </text>
+                                <text x="30" y="85" font-family="Helvetica, sans serif" font-size="30" fill="black" > About </text>
                             </g>
                         </svg>
                     </a>
@@ -69,7 +69,8 @@
             </ul>
 
             </div>      
-              
+            
+                      
             
             <footer>
                 
@@ -94,7 +95,7 @@
 			</ul>
             </div>
             
-            <div class = "footerlink" ><a href=index.jsp>Home</a>&nbsp&nbsp&nbsp&nbsp<a href=draw.jsp>Draw</a>&nbsp&nbsp&nbsp&nbsp<a href=index.jsp>Source</a>&nbsp&nbsp&nbsp&nbsp<a href=index.jsp>About</a> </div>
+            <div class = "footerlink" ><a href=index.jsp>Home</a>&nbsp&nbsp&nbsp&nbsp<a href=draw.jsp>Draw</a>&nbsp&nbsp&nbsp&nbsp<a href="https://github.com/AM1467/Vector-Graphics-App">Source</a>&nbsp&nbsp&nbsp&nbsp<a href=index.jsp>About</a> </div>
           
             </footer>
             
