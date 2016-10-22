@@ -72,27 +72,29 @@
             
                       
             
-            <footer>
+                <footer style="padding: 30px; background-color:#ffffff;">
                 
             <div class = "footerlink">Theme: <a href="https://dribbble.com/shots/1192183-Pichichi-Freebie-html5-responsive-template">Pichichi</a></div>    
             
             
             <div id="footersocial">
-            <ul style="list-style:none; padding: 0px; margin: 0px; font-size: 29px;">
-  			<li class="zocial-twitter"></li>
-  			<li class="zocial-facebook"></li>
-			<li class="zocial-github"></li>
-            <li class="zocial-instagram"></li>
-            <li class="zocial-dribbble"></li>
-            <li class="zocial-evernote"></li>
-            <li class="zocial-linkedin"></li>
-            <li class="zocial-pinterest"></li>
-            <li class="zocial-google"></li>
-            <li class="zocial-youtube"></li>
-            <li class="zocial-flickr"></li>
-            <li class="zocial-lastfm"></li>
-  			<li class="zocial-reddit"></li>
-			</ul>
+                
+            <ul style="list-style:none; padding: 20px; margin: 0px; font-size: 29px;">
+                <li class="zocial-twitter"></li>
+  		<li class="zocial-facebook"></li>
+		<li class="zocial-github"></li>
+                <li class="zocial-instagram"></li>
+                <li class="zocial-dribbble"></li>
+                <li class="zocial-evernote"></li>
+                <li class="zocial-linkedin"></li>
+                <li class="zocial-pinterest"></li>
+                <li class="zocial-google"></li>
+                <li class="zocial-youtube"></li>
+                <li class="zocial-flickr"></li>
+                <li class="zocial-lastfm"></li>
+  		<li class="zocial-reddit"></li>
+            </ul>
+                
             </div>
             
             <div class = "footerlink" ><a href=index.jsp>Home</a>&nbsp&nbsp&nbsp&nbsp<a href=draw.jsp>Draw</a>&nbsp&nbsp&nbsp&nbsp<a href="https://github.com/AM1467/Vector-Graphics-App">Source</a>&nbsp&nbsp&nbsp&nbsp<a href=index.jsp>About</a> </div>

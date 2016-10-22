@@ -555,6 +555,22 @@ body {
 
 /* --- header ani ------------------------------------------------ */ 
 
+.hover_button{
+    
+    pointer-events: all;
+    
+}
+
+ .hover_button:hover
+
+  {
+
+    fill: #dab3ff;
+
+  }
+
+
+
 .cbp-af-header {
 	position: fixed;
 	width: 100%;
@@ -691,9 +707,15 @@ body {
 
 
 
+#svg {
+    
+     overflow:hidden;
+}
+
+
 #drawing-area {
     
-    height: 800px;
+    height: 1500px;
     width: auto;    
     background-color: white;    
     
