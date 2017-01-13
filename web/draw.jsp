@@ -31,7 +31,7 @@
             
            
             
-    <div id="intro" align = "center"> Click on a tool icon to create a shape. You can also <strong>drag</strong> the shapes around with left click & hold. To <strong>resize</strong> a shape, double-click on it once and drag to any direction. Double-click again to stop resizing. To <strong>delete</strong> a shape, click on the Delete button and then on a shape.
+    <div id="intro" align = "center"> Click on a tool icon to create a shape. You can also <strong>drag</strong> the shapes around with left click & hold. To <strong>resize</strong> a shape, double-click on it once and drag to any direction. Double-click again to stop resizing. To <strong>delete</strong> a shape, click on the Delete button and then on a shape. Connect two shapes with a <strong>line</strong> by clicking on the line button and selecting two shapes.
             </div>          
             
             <div id="drawing-area" style="height: 1200px; ">  
@@ -277,13 +277,20 @@
                             
                             var L = lsvg.line(0,0,0,0).attr({
                                 stroke: "#000",
-                                strokeWidth: 4
+                                strokeWidth: 3
                                 });  
                                 
                          function clickTrigger () {  
                                 
-                                if (del === 1){                                    
+                                if (del === 1){ 
+                                    
+                                    if (this.line_registered !== null){
+                                        
+                                        this.line_registered.remove();                                        
+                                    }
+                                    
                                     del = 0;
+                                    
                                     this.remove();
                                 }  
                                 
@@ -305,21 +312,48 @@
                                   
                                   var LLocal = lsvg.line(0,0,0,0).attr({
                                     stroke: "#000",
-                                    strokeWidth: 4
+                                    strokeWidth: 3
                                   }); 
                                   
                                   LLocal.start = L.start;
-                                  LLocal.end = L.end;                               
+                                  LLocal.end = L.end; 
+                                  
+                                  LLocal.start.line_registered = LLocal;
+                                  LLocal.end.line_registered = LLocal;                                  
+                                 
                                   
                                  document.addEventListener('mousemove', function (e) {
                                   
                                  startP = LLocal.start.getBBox();  
-                                 endP = LLocal.end.getBBox();                         
-
-                                 LLocal.attr({x1: startP.cx, y1: startP.cy , x2:endP.cx, y2: endP.cy});
+                                 endP = LLocal.end.getBBox();
                                  
+
+                                 LLocal.attr({x1: startP.x2, y1: startP.cy, x2: endP.x, y2: endP.cy});  // start point is on the left side of end point
+                                 
+                                 
+                                 if(startP.cx > endP.cx){     // start point is on the right side of end point
+                                     
+                                  LLocal.attr({x1: startP.x, y1: startP.cy, x2: endP.x2, y2: endP.cy});
+                                     
+                                 }
+                                 
+                                 if((startP.cy - endP.cy) > 100){   // start point is below end point
+                                     
+                                   LLocal.attr({x1: startP.cx, y1: startP.y, x2: endP.cx, y2: endP.y2});
+                                     
+                                 }
+                                 
+                                  if((endP.cy - startP.cy) > 100  ){  // start point is above end point
+                                     
+                                   LLocal.attr({x1: startP.cx, y1: startP.y2, x2: endP.cx, y2: endP.y});
+                                     
+                                 }
+                                
+                                
                 
-                                }, false);   
+                                }, false);  
+                                
+                                
                                     
                                 }                                
                                

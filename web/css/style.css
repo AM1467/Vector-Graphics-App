@@ -17,8 +17,11 @@
 
 body {
     
+    width: 1000px;
     background-color: #fff2e6;
-    
+    margin: 0;
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font-family: 'Roboto', 'Roboto Slab', serif, 'Roboto', sans-serif;
 }
 
 a {
@@ -107,9 +110,6 @@ textarea {
  * Address margins handled incorrectly in IE 6/7.
  */
 
-body {
-    margin: 0;
-}
 
 /* ==========================================================================
    Links
@@ -547,10 +547,6 @@ table {
 
 
 
-body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
-	font-family: 'Roboto', 'Roboto Slab', serif, 'Roboto', sans-serif;
-}
 
 
 /* --- header ani ------------------------------------------------ */ 
@@ -658,7 +654,7 @@ body {
 @media screen and (max-width: 55em) {
 	
 	.cbp-af-header .cbp-af-inner {
-		width: 100%;
+		width: 90%;
 	}
 
 	.cbp-af-header h1,
