@@ -11,7 +11,8 @@
 </head>
 
 
-<body>
+<body style = "margin: 0 auto; 
+        width: 900px; ">
 
             <div class="cbp-af-header">
                 <div class="cbp-af-inner">
@@ -23,16 +24,16 @@
             
            
             
-            <div id="intro" align = "center"> Hello! Welcome to VG Draw, an application that will help you create your own basic vector shapes.
+            <div id="intro" > Hello! Welcome to VG Draw, an application that will help you create your own basic vector shapes.
             </div>
     
-            <br><br><br>
+            <br>
             
-            <div id="homepage-buttons" >
+            <div  id="homepage-buttons"  >
             
-            <ul class="cbp-rfgrid"  >
+            <ul style =" width: 900px;"  >
                 
-                <li>
+                <li style = "padding: 10px;">
                     <a href="draw.jsp">
                         <svg>
                             <g>
@@ -43,7 +44,7 @@
                     </a>
                 </li>
                 
-    		<li>
+    		<li style = "padding: 10px;">
                     <a href="https://github.com/AM1467/Vector-Graphics-App">
                         <svg>
                             <g>
@@ -54,7 +55,7 @@
                     </a>
                 </li>                
                 
-   		<li>
+   		<li style = "padding: 10px;">
                     <a href="#">
                         <svg>
                             <g>
@@ -72,31 +73,16 @@
             
                       
             
-                <footer style="padding: 30px; background-color:#ffffff;">
+            <footer style = "margin: 0 auto; 
+        width: 800px; 
+        padding: 30px;  
+        background-color:#ffffff;
+	text-align: center;
+	margin-bottom: 70px;
+	clear: both;">
                 
             <div class = "footerlink">Theme: <a href="https://dribbble.com/shots/1192183-Pichichi-Freebie-html5-responsive-template">Pichichi</a></div>    
-            
-            
-            <div id="footersocial">
                 
-            <ul style="list-style:none; padding: 20px; margin: 0px; font-size: 29px;">
-                <li class="zocial-twitter"></li>
-  		<li class="zocial-facebook"></li>
-		<li class="zocial-github"></li>
-                <li class="zocial-instagram"></li>
-                <li class="zocial-dribbble"></li>
-                <li class="zocial-evernote"></li>
-                <li class="zocial-linkedin"></li>
-                <li class="zocial-pinterest"></li>
-                <li class="zocial-google"></li>
-                <li class="zocial-youtube"></li>
-                <li class="zocial-flickr"></li>
-                <li class="zocial-lastfm"></li>
-  		<li class="zocial-reddit"></li>
-            </ul>
-                
-            </div>
-            
             <div class = "footerlink" ><a href=index.jsp>Home</a>&nbsp&nbsp&nbsp&nbsp<a href=draw.jsp>Draw</a>&nbsp&nbsp&nbsp&nbsp<a href="https://github.com/AM1467/Vector-Graphics-App">Source</a>&nbsp&nbsp&nbsp&nbsp<a href=index.jsp>About</a> </div>
           
             </footer>

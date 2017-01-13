@@ -19,7 +19,8 @@
 </head>
 
 
-<body>
+<body style = "margin: 0 auto; 
+        width: 1200px; ">
 
             <div class="cbp-af-header">
                 <div class="cbp-af-inner">
@@ -257,7 +258,7 @@
                         
                     </svg>
                     
-                    <br>                
+                                    
                     
                     
                     </div>         
@@ -265,7 +266,7 @@
                 <br><br>
                 
                 <div align="center">
-                    <div  id = "drawing-box" style="border:1px solid black; height: 800px; width:1200px; background-color: #f2f4f3; ">                
+                    <div  id = "drawing-box" style=" float:left; border:1px solid black; height: 800px; width:1200px; background-color: #f2f4f3;">                
                        
                         <svg height="800" width="1200" id = "svg" ></svg>   
                         
@@ -372,28 +373,15 @@
                  
           
             
-            <footer style="padding: 30px; background-color:#ffffff;">
+            <footer style = "margin: 0 auto; 
+        width: 800px; 
+        padding: 30px;  
+        background-color:#ffffff;
+	text-align: center;
+	margin-bottom: 70px;
+	clear: both;">
                 
             <div class = "footerlink">Theme: <a href="https://dribbble.com/shots/1192183-Pichichi-Freebie-html5-responsive-template">Pichichi</a></div>    
-            
-            
-            <div id="footersocial">
-            <ul style="list-style:none; padding: 20px; margin: 0px; font-size: 29px;">
-  			<li class="zocial-twitter"></li>
-  			<li class="zocial-facebook"></li>
-			<li class="zocial-github"></li>
-            <li class="zocial-instagram"></li>
-            <li class="zocial-dribbble"></li>
-            <li class="zocial-evernote"></li>
-            <li class="zocial-linkedin"></li>
-            <li class="zocial-pinterest"></li>
-            <li class="zocial-google"></li>
-            <li class="zocial-youtube"></li>
-            <li class="zocial-flickr"></li>
-            <li class="zocial-lastfm"></li>
-  			<li class="zocial-reddit"></li>
-			</ul>
-            </div>
             
             <div class = "footerlink" ><a href=index.jsp>Home</a>&nbsp&nbsp&nbsp&nbsp<a href=draw.jsp>Draw</a>&nbsp&nbsp&nbsp&nbsp<a href="https://github.com/AM1467/Vector-Graphics-App">Source</a>&nbsp&nbsp&nbsp&nbsp<a href=index.jsp>About</a> </div>
           
