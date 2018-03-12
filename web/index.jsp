@@ -12,7 +12,7 @@
 
 
 <body style = "margin: 0 auto; 
-        width: 900px; ">
+        width: 800px; ">
 
             <div class="cbp-af-header">
                 <div class="cbp-af-inner">
